@@ -107,6 +107,226 @@ div.accueil-text{
     justify-content: space-between;
     margin-top: 50px;
 }
+
+ /* Profile */
+
+
+
+
+ 
+.profile{
+     display: grid;
+    grid-template-columns: 5fr 90fr 5fr;
+    grid-template-rows: 50px 270px 300px;
+    row-gap: 50px;
+}
+
+
+.profil-card {
+    display: grid;
+    grid-area: 2/2/3/3;
+    height: 270px;
+    grid-template-rows: 50px 65px 65px 50px 75px;
+    grid-template-columns: 10px 130px 100px 450px 450px;
+
+
+
+}
+
+
+.profile-profile-pic {
+    grid-area: 2/2/4/3;
+    background-image: url(imagesA/pic6.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border-width: 4px;
+    border-style: solid;
+    border-color: white;
+
+
+
+}
+
+
+
+.profile-banner {
+
+    grid-area: 1/1/6/6;
+ 
+}
+
+.profile-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+}
+
+.profile-under-banner {
+
+    background-color: black;
+    grid-area: 5/1/6/6;
+
+
+}
+
+.profile-followers {
+    color: white;
+
+    grid-area: 5/2/6/3;
+    justify-self: left;
+    align-self: center;
+
+}
+
+.profile-description{
+    color: white;
+    font-size: 25px;
+    grid-area: 5/5/6/6;
+    justify-self: left;
+    align-self: center;
+}
+
+.profile-follows {
+    color: white;
+
+    grid-area: 5/3/6/4;
+    justify-self: left;
+    align-self: center;
+
+}
+
+.profile-section2 {
+    display: grid;
+    grid-area: 3/2/4/3;
+    height: 300px;
+
+    grid-template-columns: 3fr repeat(2, 6fr) 5fr 5fr 5fr 10fr;
+    grid-template-rows: 1fr 4fr 1fr 4fr 1fr 4fr 1fr 4fr 1fr 4fr 1fr;
+}
+
+
+.profile-jeu-favori {
+    grid-area: 2/2/3/3;
+    color: white;
+    font-weight: bold;
+}
+
+.profile-game {
+    grid-area: 2/3/3/4;
+    color: #6744F1;
+    font-weight: bold;
+    text-align: center;
+}
+
+.profile-rank {}
+
+.profile-frame1 {
+    background-color: #323136;
+    grid-area: 1/1/-1/5;
+    border-radius: 30px;
+}
+
+.profile-mvp {
+    grid-area: 5/2/6/3;
+    color: white;
+    font-weight: bold;
+}
+
+
+.profile-wins {
+    grid-area: 9/2/10/3;
+    color: white;
+    font-weight: bold;
+}
+
+.profile-mvp-bar {
+    border-radius: 50%;
+
+    height: 100%;
+    aspect-ratio: 1/1;
+   
+    background: conic-gradient(rgb(255, 255, 255) 58%, #2245C2 42%);
+
+}
+.profile-mvp-circle{
+    z-index: 1;
+    position: absolute;
+    border-radius: 50%;
+    height: 70%;
+    aspect-ratio: 1/1;
+    background-color: #323136;
+}
+.flexdiv {
+    display: flex;
+    position: relative;
+    grid-area: 4/3/7/4;
+    justify-content: center;
+    align-items: center;
+}
+.percentage{
+    position: absolute;
+    z-index: 2;
+    color: white;
+}
+
+
+.name {
+    color: white;
+    font-size: 30px;
+    grid-area: 2/3/3/4;
+    justify-self: left;
+    align-self: center;
+}
+
+.profile-madeIn {
+    color: white;
+    font-size: 20px;
+    grid-area: 3/3/4/4;
+    justify-self: left;
+    align-self: center;
+}
+
+.flexdiv2 {
+    display: flex;
+    position: relative;
+    grid-area: 8/3/11/4;
+    justify-content: center;
+    align-items: center;
+}
+.profile-win-bar {
+    border-radius: 50%;
+
+    height: 100%;
+    aspect-ratio: 1/1;
+   
+background: conic-gradient( white 0% 35%,#9222C2 35% 100%);
+
+}
+.profile-win-circle{
+    z-index: 1;
+    position: absolute;
+    border-radius: 50%;
+    height: 70%;
+    aspect-ratio: 1/1;
+    background-color: #323136;
+}
+.percentage2{
+    position: absolute;
+    z-index: 2;
+    color: white;
+}
+
+.center {}
+
+.Vcenter {}
+
+.spaceUp {
+    margin-top: 30px;
+}
+
 /* footer */
 footer{
     background-color: black;
